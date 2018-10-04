@@ -1,5 +1,6 @@
 import DialogContentText from "@material-ui/core/DialogContentText";
 import { withStyles, WithStyles } from "@material-ui/core/styles";
+import Typography from "@material-ui/core/Typography";
 import * as React from "react";
 
 import { transformAddressToForm } from "../..";
@@ -183,10 +184,9 @@ class OrderDraftPageComponent extends React.Component<
         </PageHeader>
         <div className={classes.date}>
           {order && order.created ? (
-            <DateFormatter
-              date={order.created}
-              typographyProps={{ variant: "caption" }}
-            />
+            <Typography variant="caption">
+              <DateFormatter date={order.created} />
+            </Typography>
           ) : (
             <Skeleton style={{ width: "10em" }} />
           )}
