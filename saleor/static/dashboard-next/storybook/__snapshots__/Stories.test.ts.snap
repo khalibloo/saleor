@@ -4733,6 +4733,9 @@ exports[`Storyshots Orders / OrderCustomer default 1`] = `
       >
         Wyspy Salomona
       </p>
+      <p
+        class="MuiTypography-root-id MuiTypography-body1-id"
+      />
     </div>
     <hr
       class="Component-root-id"
@@ -4884,6 +4887,9 @@ exports[`Storyshots Orders / OrderCustomer editable 1`] = `
       >
         Wyspy Salomona
       </p>
+      <p
+        class="MuiTypography-root-id MuiTypography-body1-id"
+      />
     </div>
     <hr
       class="Component-root-id"
@@ -5147,6 +5153,9 @@ exports[`Storyshots Orders / OrderCustomer with different addresses 1`] = `
       >
         Wyspy Salomona
       </p>
+      <p
+        class="MuiTypography-root-id MuiTypography-body1-id"
+      />
     </div>
     <hr
       class="Component-root-id"
@@ -5184,6 +5193,9 @@ exports[`Storyshots Orders / OrderCustomer with different addresses 1`] = `
       >
         Wyspy Salomona
       </p>
+      <p
+        class="MuiTypography-root-id MuiTypography-body1-id"
+      />
     </div>
   </div>
 </div>
@@ -15011,6 +15023,9 @@ exports[`Storyshots Views / Orders / Order details as a draft 1`] = `
             >
               Wyspy Salomona
             </p>
+            <p
+              class="MuiTypography-root-id MuiTypography-body1-id"
+            />
           </div>
           <hr
             class="Component-root-id"
@@ -15956,6 +15971,9 @@ exports[`Storyshots Views / Orders / Order details as a unpaid order 1`] = `
             >
               Wyspy Salomona
             </p>
+            <p
+              class="MuiTypography-root-id MuiTypography-body1-id"
+            />
           </div>
           <hr
             class="Component-root-id"
@@ -16901,6 +16919,9 @@ exports[`Storyshots Views / Orders / Order details when loaded data 1`] = `
             >
               Wyspy Salomona
             </p>
+            <p
+              class="MuiTypography-root-id MuiTypography-body1-id"
+            />
           </div>
           <hr
             class="Component-root-id"
@@ -19060,8 +19081,9 @@ exports[`Storyshots Views / Orders / Order draft without lines 1`] = `
         />
       </button>
       <button
-        class="MuiButtonBase-root-id MuiButton-root-id MuiButton-contained-id MuiButton-containedSecondary-id MuiButton-raised-id MuiButton-raisedSecondary-id"
-        tabindex="0"
+        class="MuiButtonBase-root-id MuiButtonBase-disabled-id MuiButton-root-id MuiButton-contained-id MuiButton-containedSecondary-id MuiButton-raised-id MuiButton-raisedSecondary-id MuiButton-disabled-id"
+        disabled=""
+        tabindex="-1"
         type="button"
       >
         <span
@@ -19069,9 +19091,6 @@ exports[`Storyshots Views / Orders / Order draft without lines 1`] = `
         >
           Finalize
         </span>
-        <span
-          class="MuiTouchRipple-root-id"
-        />
       </button>
     </div>
   </div>
