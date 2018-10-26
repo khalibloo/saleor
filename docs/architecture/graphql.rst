@@ -102,7 +102,7 @@ Verification and refreshing the token is straightforward:
 .. code-block:: html
 
     mutation tokenVerify($token: String!) {
-      verifyToken(token: $token) {
+      tokenVerify(token: $token) {
         payload
       }
     }
